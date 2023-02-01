@@ -1,0 +1,199 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Magic Trick</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Math Magic Trick</h1>
+
+<div class="rules">
+  <h2>Here's how it works : </h2>
+  <h4>
+    1. Pick a number between 1 to 30. <br>
+    2. Be sure that you does not tell anyone. <br>
+    3. Now, See the 5 cards below. <br>
+    4. Please mark the checkbox if your gussed number is in the card. <br>
+    5. Press on the submit button and see the result. <br>  
+  </h4>
+</div>
+
+  <form  action="magic.php" method="get">
+  <div class="container-top flex">
+    <div class="section-1 card1">
+      <table>
+        <tr>
+          <td>1</td>
+          <td>3</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>9</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>15</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>21</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>27</td>
+          <td>29</td>
+        </tr>
+      </table>
+        
+        <input type = "checkbox" class = "checkbox" name = "card[]" id = "card" value = "Card 1">
+        <label for="card 1">Card 1</label>
+      
+    </div>
+    <div class="section-1 card2">
+      <table>
+        <tr>
+          <td>2</td>
+          <td>3</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>10</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>15</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>22</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>27</td>
+          <td>30</td>
+        </tr>
+      </table>
+      
+        <input type = "checkbox" class = "checkbox" name = "card[]" id = "card" value = "Card 2">
+        <label for="card 2">Card 2</label>
+     
+    </div>
+    <div class="section-1 card3">
+      <table>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>12</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>15</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>22</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+        </tr>
+      </table>
+     
+        <input type = "checkbox" class = "checkbox" name = "card[]" id = "card" value = "Card 3">
+        <label for="card 3">Card 3</label>
+  
+    </div>
+  </div>
+
+  <div class="container-bottom flex">
+    <div class="section-2 card4">
+      <table>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>15</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+        </tr>
+      </table>
+      
+        <input type = "checkbox" class = "checkbox" name = "card[]" id = "card" value = "Card 4">
+        <label for="card 4">Card 4</label>
+     
+    </div>
+    <div class="section-2 card5">
+      <table>
+        <tr>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+        </tr>
+      </table>
+      
+        <input type = "checkbox" class = "checkbox" name = "card[]" id = "card" value = "Card 5">
+        <label for="card 5">Card 5</label>
+    </div>
+  </div>
+  <input type = "submit" class = "submit" value="Submit">
+</form>
+</body>
+
+</html>
